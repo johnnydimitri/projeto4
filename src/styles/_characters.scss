@@ -1,0 +1,33 @@
+.characters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+
+    .char-grid {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .char-grid-img {
+        width: 100%;
+        height: 220px;
+        object-fit: contain;
+        display: block;
+    }
+}
+
+    .char-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+

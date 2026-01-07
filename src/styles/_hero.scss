@@ -1,0 +1,14 @@
+.hero {
+    background-image: url(../images/imghero.jpeg);
+    height: 506px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    p {
+        background-color: transparent;
+        font-size: larger;
+    }
+}
